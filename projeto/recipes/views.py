@@ -12,3 +12,7 @@ def base(request):
 
 def recipe(request, id):
     return render(request, 'recipes/pages/recipe-view.html')
+
+
+def contato(request):
+    return render(request, 'recipes/pages/contato.html')
